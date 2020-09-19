@@ -1,0 +1,2 @@
+#https://jekyllrb.com/docs/step-by-step/04-layouts/
+bundle exec jekyll serve

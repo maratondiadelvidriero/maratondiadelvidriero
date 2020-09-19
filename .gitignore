@@ -1,0 +1,9 @@
+**/.settings/*
+*.project
+.hg/
+*.classpath
+*.lock
+*.orig
+_site/
+Gemfile
+.*/*

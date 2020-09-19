@@ -1,0 +1,32 @@
+# deployment
+host: 0.0.0.0
+port: 4000
+
+title: Maratón día del Vidriero
+description: Historia y clasificaciones
+lang: es-AR
+
+searchUrl: http://45.182.127.232:8000/hello
+#searchUrl: http://192.168.0.252:8080/hello
+zona5name: Zona5 Running Team®
+
+collections:
+  authors:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+theme: jekyll-theme-architect
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag      
