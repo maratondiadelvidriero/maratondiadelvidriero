@@ -1,0 +1,53 @@
+---
+layout: buscarlay
+title: Buscador
+---
+	
+	<form id="myForm">
+		<input type="text" id="inputSearch" name="f" placeholder="Buscar..." title="Puede buscar por nombre, categorías, ediciones y/ó combinarlas.
+	
+    - Nombre: ejemplo juan perez.
+    - Categoría: Rango de edad, ejemplo 20-40, 50-90, 0-19, etc.
+    - Edición: El año de la edición, ejemplo 2001.
+    - Sexo: F ó M.
+    
+    Ejemplos:
+    
+    - 1998 20-34 M &rarr; edición 1998 caballeros categorías de 20 a 34.
+    - 20-50 F &rarr; Todas las mujeres que la categoría coincida con 20 a 50.
+    - José Perez &rarr; Clasificados como José Perez o Perez José.
+    
+        ">
+        <button type="submit" id="buttonSubmitSearch" title="Puede buscar por nombre, categorías, ediciones y/ó combinarlas.
+    
+    - Nombre: ejemplo juan perez.
+    - Categoría: Rango de edad, ejemplo 20-40, 50-90, 0-19, etc.
+    - Edición: El año de la edición, ejemplo 2001.
+    - Sexo: F ó M.
+    
+    Ejemplos:
+    
+    - 1998 20-34 M &rarr; edición 1998 caballeros categorías de 20 a 34.
+    - 20-50 F &rarr; Todas las mujeres que la categoría coincida con 20 a 50.
+    - José Perez &rarr; Clasificados como José Perez o Perez José.
+    
+        "
+            style="line-height: normal;">
+            <i id="iconSearch" class="fa fa-search"></i>
+        </button><a href="{{ '/buscarayuda.html'  | relative_url }}" contextmenu="Ayuda" title="Puede buscar por nombre, categorías, ediciones y/ó combinarlas.
+    
+    - Nombre: ejemplo juan perez.
+    - Categoría: Rango de edad, ejemplo 20-40, 50-90, 0-19, etc.
+    - Edición: El año de la edición, ejemplo 2001.
+    - Sexo: F ó M.
+    
+    Ejemplos:
+    
+    - 1998 20-34 M &rarr; edición 1998 caballeros categorías de 20 a 34.
+    - 20-50 F &rarr; Todas las mujeres que la categoría coincida con 20 a 50.
+    - José Perez &rarr; Clasificados como José Perez o Perez José.
+    
+        "><i id="ḧelp" class="fas fa-info-circle"></i></a>
+    </form>
+	
+	<div id="resultados"></div>

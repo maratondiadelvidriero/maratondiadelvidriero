@@ -1,0 +1,16 @@
+---
+layout: default
+title: Fotos
+comments: true
+---
+<h1>Fotos</h1>
+
+<ul>
+  {% for post in site.posts %}
+   {% if post.album %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

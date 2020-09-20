@@ -1,0 +1,27 @@
+---
+title: Buscador 
+layout: buscarlay
+---
+	
+	Puede buscar por nombre, categorías, ediciones y/ó combinarlas.
+	<ul>
+	<li><b>Nombre</b>: ejemplo juan perez.</li>
+	<li><b>Categoría</b>: Rango de edad, ejemplo 20-40, 50-90, 0-19, etc.</li>
+	<li><b>Edición</b>: El año de la edición, ejemplo 2001.</li>
+	<li><b>Sexo:</b> F ó M.</li>
+    </ul>
+    Ejemplos:
+    <ul>
+    <li> 1998 20-34 M &rarr; edición 1998 caballeros categorías de 20 a 34.</li>
+    <li> 20-50 F &rarr; Todas las mujeres que la categoría coincida con 20 a 50.</li>
+    <li> José Perez &rarr; Clasificados como José Perez o Perez José.</li>
+    </ul>
+    <form id="myForm">
+		<input type="text" id="inputSearch" name="f" placeholder="Buscar...">
+		<button type="submit" id="buttonSubmitSearch"
+			style="line-height: normal;">
+			<i id="iconSearch" class="fa fa-search"></i>
+		</button>
+	</form>
+	
+	<div id="resultados"></div>

@@ -1,4 +1,12 @@
 - name: Home
   link: /
+- name: Ediciones
+  link: /ediciones.html
+- name: 10 mandamientos de Saveiro
+  link: /mandamientos.html  
+- name: Buscador
+  link: /buscar.html
+- name: Fotos
+  link: /fotos.html
 - name: Acerca
   link: /about.html
