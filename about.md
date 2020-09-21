@@ -11,6 +11,7 @@ Para armar este sitio colaboraron varias personas y empresas, se mencionan aquí
 * Ávalos, Javier
 * Brahim, Ezequiel
 * Dominguez, Lautaro
+* Dure, Eduardo Alberto
 * Fontana, Edgardo
 * Francia, Alicia
 * Gonzalez, Yamila
